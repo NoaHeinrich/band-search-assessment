@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- using bootstrap for ease of styling -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="app.js" async defer></script>
+    <link href="styles.css" rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Band Search</title>
+</head>
+<body>
+    <div id='main'>
+        <div class='container'>
+            <div class='jumbotron'>
+                <h1>Band Search</h1>
+                <p>Search through our extensive database of musicians</p>
+            </div>
+        </div>
+        <br>
+        <form>
+            <input class="form-control" placeholder="Search an artist">
+            <button class='btn btn-default'>Search</button>
+        </form>
+        <br>
+        <div>
+            <ul id="artistDisplay" class='listGroup'></ul>
+        </div>
+    </div>
+    
+</body>
+</html>
